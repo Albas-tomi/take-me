@@ -16,12 +16,11 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.home {
+  background-image: url('../../public/images/bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
